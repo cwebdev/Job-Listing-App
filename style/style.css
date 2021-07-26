@@ -3,10 +3,19 @@
     box-sizing: border-box;
 }
 
+body {background-color: #DDEFF1;}
 .titleSection {background-image: url('../images/bg-header-mobile.svg');background-repeat: repeat-x;height:150px;background-color:#5DA5A4;}
-.jobListingRow {margin:auto;padding:5%;width:70%; margin-top:5%;
-border: 1px solid black; border-radius: 5px;}
+.jobListingRow {margin:auto;width:70%; margin-top:5%; border-radius: 5px;display: flex;flex-wrap: nowrap;position:relative;
+background-color: white;}
+.boxShadow { -moz-box-shadow:    3px 3px 5px 6px #ccc;-webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:3px 3px 5px 6px #ccc;}
+.selectionIndicator {width: 3%;background-color:#5DA5A4;border-top-left-radius: 5px;border-bottom-left-radius: 5px;
+visibility: hidden;}
+.visible {visibility: visible;}
+.jobListingSection {width:97%;padding:5%;display: flex;flex-wrap: wrap;}
+.jobListingFullImage {display: none;}
 .jobTitleWrapper {display: flex;flex-wrap: nowrap;}
+.jobListingImage {position: absolute;left:30px;top:-20px; height:40px;width:40px;background-image: url('../images/photosnap.svg');background-size: contain;background-repeat: no-repeat;}
 .jobTitleWrapper span {margin-right:20px; color:#5DA5A4; font-size:18px;font-weight: 600;padding:5px}
 .jobTitleWrapper div {margin-right:5%; padding:5px}
 .NewJobIndicator {width:auto;font-size:18px;background-color:#5DA5A4;color:white; border-radius: 10px;}
@@ -68,4 +77,7 @@ margin-right:5%; margin-top: 5%;}
     .col-12 {width: 100%;}
 
     .titleSection {background-image: url('../images/bg-header-desktop.svg');background-repeat: no-repeat;}
+    .linebreak {display: none;}
+    .jobListingImage {display: none;}
+    .jobListingFullImage {display: block;background-image:url('../images/photosnap.svg'); background-repeat: no-repeat;}
   }
