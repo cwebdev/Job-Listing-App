@@ -9,7 +9,7 @@ body {background-color: #DDEFF1;}
 background-color: white;}
 .boxShadow { -moz-box-shadow:    3px 3px 5px 6px #ccc;-webkit-box-shadow: 3px 3px 5px 6px #ccc;
     box-shadow:3px 3px 5px 6px #ccc;}
-.selectionIndicator {width: 3%;background-color:#5DA5A4;border-top-left-radius: 5px;border-bottom-left-radius: 5px;
+.selectionIndicator {width: 7px;background-color:#5DA5A4;border-top-left-radius: 5px;border-bottom-left-radius: 5px;
 visibility: hidden;}
 .visible {visibility: visible;}
 .hideDisplay {display: none;}
