@@ -1,4 +1,4 @@
-# Job listings with filtering
+# Job listings App made with React
 
 This is a solution to the [Job listings with filtering app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt/). 
 
@@ -27,14 +27,15 @@ Site performs well in Google lighthouse performance metrics.
 
 ### Screenshot
 
+![](./ReactApp_Desktop.png)
 
+#### Active States Screenshot
 
-#### Tablet Screenshot
-
-
+![](./ReactApp_Desktop_ActiveStates.png)
 
 #### Mobile Screenshot
 
+![](./ReactApp_Mobile.png)
 
 ### Links
 
@@ -45,6 +46,7 @@ Site performs well in Google lighthouse performance metrics.
 
 ### Built with
 
+- React
 - Semantic HTML5 markup
 - CSS Flexbox
 - Mobile-first workflow
@@ -52,7 +54,7 @@ Site performs well in Google lighthouse performance metrics.
 ### What I learned
 
 - Creating dynamic content responsive website
-- How to filter data using script according to user input
+- How to filter data using script according to user input in React
 
 ### Continued development
 
