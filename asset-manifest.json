@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Job-Listing-App/static/css/main.1269013c.chunk.css",
+    "main.js": "/Job-Listing-App/static/js/main.07fc1743.chunk.js",
+    "main.js.map": "/Job-Listing-App/static/js/main.07fc1743.chunk.js.map",
+    "runtime-main.js": "/Job-Listing-App/static/js/runtime-main.349caad4.js",
+    "runtime-main.js.map": "/Job-Listing-App/static/js/runtime-main.349caad4.js.map",
+    "static/js/2.cae0cea2.chunk.js": "/Job-Listing-App/static/js/2.cae0cea2.chunk.js",
+    "static/js/2.cae0cea2.chunk.js.map": "/Job-Listing-App/static/js/2.cae0cea2.chunk.js.map",
+    "index.html": "/Job-Listing-App/index.html",
+    "static/css/main.1269013c.chunk.css.map": "/Job-Listing-App/static/css/main.1269013c.chunk.css.map",
+    "static/js/2.cae0cea2.chunk.js.LICENSE.txt": "/Job-Listing-App/static/js/2.cae0cea2.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/Job-Listing-App/static/media/photosnap.5a867c13.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.349caad4.js",
+    "static/js/2.cae0cea2.chunk.js",
+    "static/css/main.1269013c.chunk.css",
+    "static/js/main.07fc1743.chunk.js"
+  ]
+}
