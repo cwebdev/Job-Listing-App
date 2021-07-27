@@ -8,8 +8,24 @@ const myelement = (
       <div className="row col-12 titleSection">
       </div>
     </header>
-    <main id="jobListingMainWrapper">
+    <main>
+      <div id="FilterMenu">
+        <div className="filteredElemsWrapper">
+          <div className="filteredElem">
+            <div className="filteredJobCategory">
+              <div className="filteredJobName">HTML</div>
+              <div className="cancelBtn">                
+              </div>
+            </div>            
+          </div>
+        </div>
+        <div className="ClearButton">
+          <span className="ClearBtnText">Clear</span>
+        </div>
+      </div>
+      <div id="jobListingMainWrapper">
 
+      </div>
     </main>
     <footer>
       <div className="row col-12">
@@ -22,7 +38,28 @@ const myelement = (
   </div>
 )
 
+ReactDOM.render(myelement, document.getElementById('root'));
+
+
+
+
+
+
 class JobListingElement extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      selected: false
+    };
+  }
+
+  updateClickState = () => {    
+    if(this.state.selected === true)
+      this.setState({selected: false});
+    else
+      this.setState({selected: true});
+  }
+
   render() {
     const jobCategories = [];
     Array.from(this.props.categories).forEach((item,index) => {
@@ -30,13 +67,13 @@ class JobListingElement extends React.Component {
         <div className="jobCategory" key={index}>{item}</div>
       );
     })
-
+    
     return (
-      <div className="row jobListingRow boxShadow">
+      <div className="row jobListingRow boxShadow" onClick={this.updateClickState}>
         <div className="jobListingImage" style={{backgroundImage:`url(${this.props.logo})`}}>
 
         </div>
-        <div className="selectionIndicator visible">
+        <div className={"selectionIndicator " + (this.state.selected === true ? "visible" : "")}>
         </div>
         <div className="jobListingSection">
           <div className="jobListingFullImage col-2" style={{backgroundImage:`url(${this.props.logo})`}}>          
@@ -93,7 +130,7 @@ const getData=()=>{
         JobListings.push(<JobListingElement key={myJson[i]['id']} company={myJson[i]['company']} 
           new={myJson[i]['new']} featured={myJson[i]['featured']} position={myJson[i]['position']}
           categories={myJson[i]['languages']} postedAt={myJson[i]['postedAt']} contract={myJson[i]['contract']} 
-          location={myJson[i]['location']} logo={myJson[i]['logo']} />);
+          location={myJson[i]['location']} logo={myJson[i]['logo']} selected="false" />);
       }
       
       const finalElement = (
@@ -108,4 +145,3 @@ const getData=()=>{
 
 getData();
 
-ReactDOM.render(myelement, document.getElementById('root'));

@@ -5,8 +5,21 @@
 
 body {background-color: #DDEFF1;}
 .titleSection {background-image: url('images/bg-header-mobile.svg');background-repeat: repeat-x;height:150px;background-color:#5DA5A4;}
+#FilterMenu {height:50px;width:70%;margin: auto;background-color: white;margin-top:-25px;border-radius: 5px;display: flex;flex-wrap: nowrap;}
+.filteredElemsWrapper {display: flex;flex-wrap: wrap;width:85%;}
+.filteredElem {display: flex;flex-wrap: nowrap;align-items: center;padding-left:5%}
+.filteredJobCategory {background-color: #CBE9E7;color:#5DA5A4;font-size:18px;border-radius: 5px;font-weight:500;
+  margin-right:5%; margin-top: 5%;display: flex;flex-wrap: nowrap;}
+.filteredJobName {padding:5px}
+
+.cancelBtn {background-image: url('images/icon-remove.svg');height: 30px;width: 25px;background-repeat: no-repeat;
+background-color: #5DA5A4;background-position: center; border-top-right-radius: 5px;border-bottom-right-radius: 5px;}
+.cancelBtn:hover {background-color: black;cursor: pointer;}
+.ClearButton {width:15%;text-align: center;display: -webkit-flex;display: flex;align-items: center;color:#5DA5A4;}
+.ClearBtnText {cursor:pointer}
+.ClearBtnText:hover {text-decoration: underline;}
 .jobListingRow {margin:auto;width:70%; margin-top:5%; border-radius: 5px;display: flex;flex-wrap: nowrap;position:relative;
-background-color: white;}
+background-color: white;cursor: pointer;}
 .boxShadow { -moz-box-shadow:    3px 3px 5px 6px #ccc;-webkit-box-shadow: 3px 3px 5px 6px #ccc;
     box-shadow:3px 3px 5px 6px #ccc;}
 .selectionIndicator {width: 7px;background-color:#5DA5A4;border-top-left-radius: 5px;border-bottom-left-radius: 5px;
@@ -27,7 +40,8 @@ visibility: hidden;}
 .linebreak {height:1px; width:100%; border-bottom:1px solid #C0C2C1}
 .categoriesWrapper {display: flex;flex-wrap: wrap;}
 .jobCategory {background-color: #CBE9E7;color:#5DA5A4;font-size:18px;border-radius: 5px;padding:5px;font-weight:500;
-margin-right:5%; margin-top: 5%;}
+margin-right:5%; margin-top: 5%;display: flex;flex-wrap: nowrap;}
+.jobCategory:hover {background-color: #5DA5A4;color:white;}
 
 
 .attribution { font-size: 11px; text-align: center; margin-top: 1%;}
