@@ -12,6 +12,7 @@ background-color: white;}
 .selectionIndicator {width: 3%;background-color:#5DA5A4;border-top-left-radius: 5px;border-bottom-left-radius: 5px;
 visibility: hidden;}
 .visible {visibility: visible;}
+.hideDisplay {display: none;}
 .jobListingSection {width:97%;padding:5%;display: flex;flex-wrap: wrap;}
 .jobListingFullImage {display: none;}
 .jobTitleWrapper {display: flex;flex-wrap: nowrap;}
