@@ -62,5 +62,5 @@ Would want to work more on other frameworks like vue.js.
 
 ## Author
 
-- Website - [Chitrang Shah](https://chitrang-portfolio-design.webflow.io/)
+- Website - [Chitrang Shah](https://chitrang.webflow.io/)
 - Frontend Mentor Profile - [@cwebdev](https://www.frontendmentor.io/profile/cwebdev)
