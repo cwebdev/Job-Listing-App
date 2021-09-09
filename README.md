@@ -1,4 +1,4 @@
-# Job listings App made with React
+# Job listings App made with React (PSD to HTML)
 
 This is a solution to the [Job listings with filtering app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt/). 
 
@@ -12,7 +12,6 @@ This is a solution to the [Job listings with filtering app challenge on Frontend
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
 
 ## Overview
@@ -55,10 +54,6 @@ Site performs well in Google lighthouse performance metrics.
 
 - Creating dynamic content responsive website
 - How to filter data using script according to user input in React
-
-### Continued development
-
-Would want to work more on other frameworks like vue.js.
 
 ## Author
 
