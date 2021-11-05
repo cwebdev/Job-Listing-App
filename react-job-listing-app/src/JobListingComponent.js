@@ -11,6 +11,13 @@ class JobListingComponent extends React.Component {
     Array.from(this.props.categories).forEach((item,index) => {      
         this.state.categories.push(item);      
     });    
+
+    Array.from(this.props.tools).forEach((item,index) => {      
+        this.state.categories.push(item);      
+    });
+
+    this.state.categories.push(this.props.role);
+    this.state.categories.push(this.props.level);
   }
 
   updateClickState = () => {    

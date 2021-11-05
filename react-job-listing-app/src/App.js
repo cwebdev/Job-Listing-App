@@ -68,7 +68,7 @@ class App extends React.Component {
       {
         JobListings.push(<JobListingComponent key={this.state.appJSONData[i]['id']} company={this.state.appJSONData[i]['company']} new={this.state.appJSONData[i]['new']} featured={this.state.appJSONData[i]['featured']} position={this.state.appJSONData[i]['position']} categories={this.state.appJSONData[i]['languages']} postedAt={this.state.appJSONData[i]['postedAt']} contract={this.state.appJSONData[i]['contract']} 
         location={this.state.appJSONData[i]['location']} logo={this.state.appJSONData[i]['logo']} selected="false" 
-        filteredValues={this.state.filteredValues} action={this.updateCategoryValues} />);
+        filteredValues={this.state.filteredValues} action={this.updateCategoryValues} role={this.state.appJSONData[i]['role']} tools={this.state.appJSONData[i]['tools']} level={this.state.appJSONData[i]['level']} />);
       }
     }
     
