@@ -2,6 +2,7 @@
 
 This is a solution to the [Job listings with filtering app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt/). 
 
+- Live Site URL: [https://cwebdev.github.io/Job-Listing-App/](https://cwebdev.github.io/Job-Listing-App/)
 
 ## Table of contents
 
